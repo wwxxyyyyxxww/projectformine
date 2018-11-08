@@ -1,0 +1,10 @@
+td[class=tdcolor]{
+    background-color: red;
+    color: cyan;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}

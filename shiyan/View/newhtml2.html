@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "newcss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    </head>
+    <body>
+        <div id="d1">1</div>
+<!--        <div style="background-color: olivedrab;width: 200px" id="a">aaa</div>
+        <div id="d1">1
+            <div id="d2">2</div>
+        </div>-->
+        <script>
+            //判断浏览器类型
+            //如果有值 ie浏览器
+            //没有值 非ie浏览器
+            if (d1.currentStyle){
+                var w1=d1.currentStyle.width;
+                console.log(w1)
+            }
+            else{
+                var w1=window.getComputedStyle(d1).backgroundColor;
+                console.log(w1)
+            }
+            //其它浏览器
+//            console.log(window.getComputedStyle(d1).backgroundColor)
+
+//         
+         //内部样式，外部样式不能通过style属性获取style值
+//            var dd=document.getElementById("a")
+//            console.log(dd)
+//            console.log(dd.id)
+//            console.log(dd.style)
+//            console.log(dd.style.width)
+//            console.log(dd.style.backgroundColor)
+//            console.log(dd.style["width"])
+//            console.log(dd.style["backgroundColor"])
+//            console.log(dd.style.backgroundColor="red")
+//            //innerText 获取文本内容
+//            //innerHTML 修改内容
+//            var d1=document.getElementById("d1");
+//            //获取当前标签下所有内容，不包含自己本身节点
+//            var inner = d1.innerHTML;
+//            console.log(inner)
+//            //获取当前标签所有内容，包含自己本身节点
+//            var outer = d1.outerHTML;
+//            console.log(outer);
+//            var innerText = d1.innerText
+//            console.log(innerText)
+//            d1.innerHTML="sssssss"
+//            d1.innerHTML="<h1>ee</h1>"
+//            d1.innerText="<h1>ssss</h1>"//<h1>不管用
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button onclick="func1()">click</button>
+        <div id="d1" style="width: 200px;height: 200px;background-color: red"></div>
+        <script>
+            function func1(){
+               var color1=Math.floor(Math.random()*256)
+               var color2=Math.floor(Math.random()*256)
+               var color3=Math.floor(Math.random()*256)
+                a=document.getElementById("d1")
+                a.style.backgroundColor="rgb("+color1+","+color2+","+color3+")";
+              
+              }
+        </script>
+    </body>
+</html>

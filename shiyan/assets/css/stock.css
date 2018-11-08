@@ -1,0 +1,27 @@
+#stock_material_add{
+
+    /*    left: 10px;
+        top: 50px;*/
+    height:225px;
+    width:40%;
+    display: none;
+}
+
+#submit_add{
+    width: 100%;
+}
+#close_Month{
+    width: 100%;
+}
+#month{
+    height: 300px;width: 570px;display: none;position: absolute;top: 30%;left: 30%;z-index: 99;
+}
+#month2{
+    height: 300px;width: 570px;overflow: auto;
+}
+#monthBalanceThis{
+    height: 20%;width: auto
+}
+#monthBalanceThis2{
+    height: 20%;width: 100%
+}
